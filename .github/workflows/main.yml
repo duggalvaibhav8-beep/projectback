@@ -24,6 +24,6 @@ jobs:
             git pull origin main 
             npm i  
             sudo npm i pm2 -g 
-            pm2 start index.js --name backend 
+            pm2 start index.js --name kizza
 
         
